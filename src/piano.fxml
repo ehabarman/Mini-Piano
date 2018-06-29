@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="714.0" prefWidth="931.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PianoController">
+   <children>
+      <ImageView fitHeight="387.0" fitWidth="40.0" layoutY="132.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Resources/Images/left.png" />
+         </image></ImageView>
+      <ImageView fitHeight="150.0" fitWidth="250.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Resources/Images/corner-001.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="218.0" layoutX="382.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Resources/Images/0CjSPHrQ.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="387.0" fitWidth="40.0" layoutX="891.0" layoutY="132.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Resources/Images/right.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="250.0" layoutX="681.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Resources/Images/corner-007.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="150.0" layoutX="247.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="153.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="150.0" layoutX="586.0" stroke="WHITE" strokeType="INSIDE" width="100.0" />
+      <Rectangle fx:id="c1" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="370.0" layoutX="40.0" layoutY="150.0" onKeyPressed="#KeyPressed" onKeyReleased="#KeyReleased" onMouseDragReleased="#mouseReleased" onMousePressed="#clickedRect1" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle fx:id="d1" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="370.0" layoutX="100.0" layoutY="150.0" onKeyPressed="#KeyPressed" onKeyReleased="#KeyReleased" onMouseDragReleased="#mouseReleased" onMousePressed="#clickedRect2" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="61.0" />
+      <Rectangle fx:id="e1" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="370.0" layoutX="161.0" layoutY="150.0" onKeyPressed="#KeyPressed" onMouseDragReleased="#mouseReleased" onMousePressed="#clickedRect3" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle fx:id="f1" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="370.0" layoutX="220.0" layoutY="150.0" onMousePressed="#clickedRect4" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="61.0" />
+      <Rectangle fx:id="g1" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="370.0" layoutX="281.0" layoutY="150.0" onMousePressed="#clickedRect5" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle fx:id="a1" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="370.0" layoutX="341.0" layoutY="150.0" onMousePressed="#clickedRect6" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="61.0" />
+      <Rectangle fx:id="b1" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="370.0" layoutX="402.0" layoutY="150.0" onMousePressed="#clickedRect7" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle fx:id="c2" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="370.0" layoutX="461.0" layoutY="150.0" onMousePressed="#clickedRect8" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="61.0" />
+      <Rectangle fx:id="e2" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="370.0" layoutX="581.0" layoutY="150.0" onMousePressed="#clickedRect10" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="61.0" />
+      <Rectangle fx:id="d2" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="370.0" layoutX="522.0" layoutY="150.0" onMousePressed="#clickedRect9" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle fx:id="f2" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="370.0" layoutX="642.0" layoutY="150.0" onMousePressed="#clickedRect11" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="60.0" />
+      <Rectangle fx:id="g2" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="370.0" layoutX="702.0" layoutY="150.0" onMousePressed="#clickedRect12" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="61.0" />
+      <Rectangle fx:id="b2" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="370.0" layoutX="826.0" layoutY="150.0" onMousePressed="#clickedRect14" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="64.0" />
+      <Rectangle fx:id="a2" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="370.0" layoutX="763.0" layoutY="150.0" onMousePressed="#clickedRect13" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="63.0" />
+      <Rectangle fx:id="cd1" arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="80.0" layoutY="150.0" onMouseDragReleased="#mouseReleased" onMousePressed="#clickedRect15" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle fx:id="de1" arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="141.0" layoutY="150.0" onMouseDragReleased="#mouseReleased" onMousePressed="#clickedRect16" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle fx:id="fg1" arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="261.0" layoutY="150.0" onMousePressed="#clickedRect17" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle fx:id="ga1" arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="321.0" layoutY="150.0" onMousePressed="#clickedRect18" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle fx:id="ab1" arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="382.0" layoutY="150.0" onMousePressed="#clickedRect19" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle fx:id="cd2" arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="502.0" layoutY="150.0" onMousePressed="#clickedRect20" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle fx:id="de2" arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="561.0" layoutY="150.0" onMousePressed="#clickedRect21" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle fx:id="fg2" arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="682.0" layoutY="150.0" onMousePressed="#clickedRect22" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle fx:id="ga2" arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="743.0" layoutY="150.0" onMousePressed="#clickedRect23" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle fx:id="ab2" arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="806.0" layoutY="150.0" onMousePressed="#clickedRect24" onMouseReleased="#mouseReleased" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <JFXButton fx:id="load" buttonType="RAISED" layoutX="261.0" layoutY="553.0" onMouseClicked="#loadSymphony" prefHeight="52.0" prefWidth="171.0" style="-fx-background-color: RED;" text="Load Symphony" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" />
+      <JFXButton fx:id="record" buttonType="RAISED" layoutX="486.0" layoutY="553.0" onMouseClicked="#recording" prefHeight="52.0" prefWidth="171.0" style="-fx-background-color: RED;" text="Record Symphony" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" />
+      <Label fx:id="msg" layoutX="681.0" layoutY="571.0" prefHeight="17.0" prefWidth="189.0" text="Recording..." visible="false" />
+   </children>
+</AnchorPane>
